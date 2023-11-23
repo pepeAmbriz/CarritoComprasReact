@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #c1c1c121;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.Container{
+    width:1000px;
+    border: 1px solid;
+}
