@@ -1,0 +1,32 @@
+.CuadroCarrito {
+  position: absolute;
+  top: 65%;
+  right: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height: 130px;
+  width: 120px;
+  background-color: white;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.362);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px;
+}
+.CuadroCarrito > img {
+  width: 80px;
+  height: 80px;
+}
+.CuadroCarrito > button {
+  text-decoration: underline;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Noactive{
+    display: none;
+}

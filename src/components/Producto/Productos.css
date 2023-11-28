@@ -1,0 +1,29 @@
+.ProductoPrincipal {
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*  border: 1px solid red; */
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.282);
+}
+
+.ListaImages {
+  flex: 1;
+}
+
+.ImgPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+  flex: 4;
+}
+.ImgPrincipal > img {
+  width: 95%;
+  height: 95%;
+}
+.ListaDatos {
+  /* border: 1px solid; */
+  flex: 5;
+}

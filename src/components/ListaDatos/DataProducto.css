@@ -1,0 +1,110 @@
+h3 {
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 13px;
+  opacity: 0.9;
+}
+p:nth-child(3) {
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 1;
+}
+.Precio {
+  font-weight: bold;
+  font-size: 25px;
+  opacity: 1;
+}
+
+.btnColores {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btnColor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 80px;
+  outline: none;
+  border: none;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btnColor:hover {
+  outline: 1px solid;
+}
+.btnActive {
+  background-color: black;
+  color: white;
+}
+.Color {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+.btnTamnaios {
+}
+.btnTamanio {
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnTamanio:hover {
+  outline: 1px solid black;
+}
+.BtnCantidad {
+  /*  border: 1px solid; */
+  width: 90%;
+  display: flex;
+}
+.IconCantidad{
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 35px;
+  height: 30px;
+  background-color: rgba(128, 128, 128, 0.19);
+  cursor: pointer;
+}
+.IconCantidad:hover {
+  outline: 1px solid black;
+  border: none;
+}
+.IconCantidad:active {
+  background-color: black;
+  color: whitesmoke;
+  transition: 0.5s;
+}
+
+.BtnCantidad > span {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btnAgregar {
+  background-color: black;
+  color: whitesmoke;
+  height: 35px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.btnAgregar:hover {
+  background-color: rgba(0, 0, 0, 0.807);
+}

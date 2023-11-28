@@ -1,0 +1,105 @@
+.backModal {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.385);
+  width: 100%;
+  /* display: flex;
+  justify-content: center; */
+  height: 102%;
+  outline: 1px solid;
+}
+.Modal {
+  position: absolute;
+  left: 30%;
+  margin-top: 20px;
+  background-color: white;
+  width: 40%;
+  height: auto;
+  background-color: rgba(255, 253, 253, 0.974);
+}
+
+.modalNoActive {
+  display: none;
+}
+.ModalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.Articulo {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.159);
+  margin: 10px;
+}
+
+/* .Data span:nth-child(3){
+  border: 1px solid;
+  width: 100%;
+} */
+.Data > img {
+  width: 70px;
+  height: 70px;
+}
+.LastInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  /* border: 1px solid; */
+  font-weight: bold;
+}
+span {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+span:nth-child(1) {
+  font-size: 15px;
+}
+span:nth-child(3),
+span:nth-child(4),
+span:nth-child(5) {
+  font-size: 11px;
+  opacity: 0.6;
+  font-weight: 100;
+}
+
+.Totales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-sizing: content-box;
+}
+.Totales span:first-child {
+  font-weight: 100;
+  font-size: 11px;
+}
+.Totales span:last-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Totales button {
+  outline: none;
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+}
+.ModalContent h2 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+  opacity: 0.5;
+}

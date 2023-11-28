@@ -1,0 +1,19 @@
+img {
+  width: 70px;
+  height: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Images > img:hover {
+  scale: 1.1;
+  transition: 0.8s;
+}
+
+.Images {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
