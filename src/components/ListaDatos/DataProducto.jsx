@@ -16,10 +16,10 @@ const DataProducto = ({
   useEffect(() => {
     setImgCambio(Datos.imgColores.Negro);
   }, []);
-  useEffect(() => {
+  /*  useEffect(() => {
     ValidarProducto();
   }, [ValProductos]);
-
+ */
   const Colores = {
     Negro: "black",
     Amarillo: "yellow",
@@ -65,20 +65,22 @@ const DataProducto = ({
       precio: 500,
     };
 
-    setValProductos([...ValProductos, Producto]);
+    //setValProductos([...ValProductos, Producto]);
     ///  console.log(ValProductos);
     //Funcian sin ser inteligente el carrito
-    //  setProductos([...Productos, Producto]);
+    setProductos([...Productos, Producto]);
     setActiveCuadro({ status: true, imgurl: ImgCambio });
   }
-  function ValidarProducto() {
+  /* function ValidarProducto() {
     let colores = [];
     let col = ["Negro", "Rojo", "Amarillo"];
-    /*    ValProductos.map((prod) =>
-     
-    ); */
-    console.log(colores);
-  }
+     const prods = ValProductos.map((prod) => prod.Color); 
+    const resultado = {};
+    ValProductos.forEach(
+      (el) => (resultado[el.Color] = resultado[el.Color] + 1 || 1)
+    );
+    console.log(ValProductos, resultado);
+  } */
   //console.log(ValProductos);
   return (
     <div>
@@ -122,9 +124,7 @@ const DataProducto = ({
           onClick={() => SelectCantidad("Menor")}
           className="IconCantidad"
         />
-
         <span>{Cantidad}</span>
-
         <AiOutlinePlus
           onClick={() => SelectCantidad("Mayor")}
           className="IconCantidad"
